@@ -1,0 +1,67 @@
+﻿Diagnose log at 2023-06-22T05:37:04Z
+
+AppPath: /usr/bin/git-credential-manager
+InstallDir: /usr/share/git-credential-manager-core/
+Version: 2.1.2
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Linux
+OSVersion: Linux archlinux 6.3.5-arch1-2-g14 #1 SMP PREEMPT_DYNAMIC Mon, 05 Jun 2023 10:18:49 +0000 x86_64 GNU/Linux
+Reading environment variables... OK
+ Variables:
+INVOCATION_ID=0eb5dbb72abd445099a3d51b08be0bf9
+ALACRITTY_WINDOW_ID=75497474
+DEBUGINFOD_URLS=https://debuginfod.archlinux.org 
+XDG_SESSION_ID=1
+SHLVL=3
+XDG_SESSION_TYPE=tty
+HOME=/home/lapras
+XDG_SEAT=seat0
+MAIL=/var/spool/mail/lapras
+_=/usr/bin/git
+PATH=/usr/lib/git-core:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin
+XDG_SESSION_CLASS=user
+DISPLAY=:0
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+GIT_EXEC_PATH=/usr/lib/git-core
+ALACRITTY_LOG=/tmp/Alacritty-7650.log
+LOGNAME=lapras
+SYSTEMD_EXEC_PID=625
+OLDPWD=/home/lapras
+COLORTERM=truecolor
+PWD=/home/lapras/ts/mu2os
+XAUTHORITY=/home/lapras/.Xauthority
+LANG=en_US.UTF-8
+TERM=alacritty
+WINDOWID=75497474
+XDG_VTNR=1
+MOTD_SHOWN=pam
+GIT_TRACE2_PARENT_SID=2ff991fc-fc23-4dee-a7d3-8e1fd0fcc4c1
+SHELL=/usr/bin/zsh
+XDG_RUNTIME_DIR=/run/user/1000
+WINDOWPATH=1
+USER=lapras
+ALACRITTY_SOCKET=/run/user/1000/Alacritty-:0-7650.sock
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/tmp/'...
+Checking basic file I/O...
+Writing to temporary file '/tmp/4ecd40d4a14a8f387b0239aa'... OK
+Reading from temporary file '/tmp/4ecd40d4a14a8f387b0239aa'... OK
+Deleting temporary file '/tmp/4ecd40d4a14a8f387b0239aa'... OK
+Testing IFileSystem instance...
+UserHomePath: /home/lapras
+UserDataDirectoryPath: /home/lapras/.gcm
+GetCurrentDirectory(): /home/lapras/ts/mu2os
+

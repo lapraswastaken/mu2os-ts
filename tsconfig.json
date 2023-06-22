@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+
+    "rootDir": "src",
+    "outDir": "build",
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+
+    "strict": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "esModuleInterop": true,
+  },
+  "exclude": [
+    "build",
+    "node_modules"
+  ],
+}
